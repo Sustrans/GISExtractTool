@@ -15,7 +15,7 @@ import os
 
 #os.system('ogr2ogr -f "KML" "~/Desktop/KMLextractfile.kml" "~/Documents/python/GISExtractTool/TrialData/TrialData.tab" -sql "select RouteNumber AS name from INPUTFILE where ((RouteType = 1 or RouteType = 2) and OpenStatus >= 3)"')
 
-os.system('ogr2ogr -f "KML" "/home/andrew/Desktop/KMLextractfile3.kml" "/home/andrew/Documents/python/GISExtractTool/TrialData/TrialData.tab" -sql "select RouteNumber AS name from TrialData where ((RouteType = 1 or RouteType = 2) and OpenStatus >= 3)"')
+os.system('ogr2ogr -f "KML" "/home/andrew/Desktop/KMLextractfileNov11th.kml" "/home/andrew/Documents/python/GISExtractTool/TrialData/TrialData.tab" -sql "select RouteNumber AS name from TrialData where ((RouteType = 1 or RouteType = 2) and OpenStatus >= 3)"')
 
 
 
